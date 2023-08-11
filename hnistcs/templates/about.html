@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于本站</title>
+    <style>
+        /* Reset some default styles */
+        .center {
+            display: block;
+            margin: auto;
+        }
+
+        body, h1, p, input, button {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Layout styles */
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+         main {
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 120px);
+         }
+
+        .container {
+            text-align: center;
+        }
+
+        input[type="text"], button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: #798;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            padding: 2px 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>湖理计算机协会</h1>
+    </header>
+
+    <main>
+        <h2 align="center">本站是基于flask开发的轻量级网站</h2>
+        <h2 align="center">其中部分前端元素参考了互联网上的相关代码，如有侵权，请及时联系我们</h2>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/">首页</a></li>
+                <li><a href="/choice">抽奖</a></li>
+                <li><a href="/admin">管理</a></li>
+                <li><a href="/contact">联系</a></li>
+                <li><a href="/about">关于</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
